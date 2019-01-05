@@ -1,0 +1,61 @@
+{
+  "name": "ngx-leaflet-poc",
+  "version": "1.0.0",
+  "scripts": {
+    "ng": "ng",
+    "start": "ng serve",
+    "build": "ng build",
+    "test": "ng test",
+    "lint": "ng lint",
+    "e2e": "ng e2e"
+  },
+  "private": true,
+  "dependencies": {
+    "@angular/animations": "7",
+    "@angular/common": "7",
+    "@angular/compiler": "7",
+    "@angular/core": "7",
+    "@angular/forms": "7",
+    "@angular/http": "7",
+    "@angular/platform-browser": "7",
+    "@angular/platform-browser-dynamic": "7",
+    "@angular/router": "7",
+    "@asymmetrik/ngx-leaflet": "5",
+    "@types/leaflet": "1",
+    "bootstrap": "^4.2.1",
+    "core-js": "2",
+    "c3": "^0.6.11",
+    "jquery": "^3.3.1",
+    "leaflet": "1",
+    "leaflet-control-geocoder": "^1.6.0",
+    "popper.js": "^1.14.6",
+    "rxjs": "6",
+    "zone.js": "0.8"
+  },
+  "devDependencies": {
+    "@angular-devkit/build-angular": "0.10",
+    "@angular/cli": "7",
+    "@angular/compiler-cli": "7",
+    "@angular/language-service": "7",
+    "@types/c3": "^0.6.2",
+    "@types/jasmine": "2",
+    "@types/jasminewd2": "2",
+    "@types/node": "10",
+    "codelyzer": "4",
+    "jasmine-core": "3",
+    "jasmine-spec-reporter": "4",
+    "karma": "3",
+    "karma-chrome-launcher": "2",
+    "karma-coverage-istanbul-reporter": "2",
+    "karma-jasmine": "1",
+    "karma-jasmine-html-reporter": "1",
+    "protractor": "5",
+    "ts-node": "7",
+    "tslint": "5",
+    "typescript": "^3.1.6"
+  },
+  "engines": {
+    "node": "~8",
+    "npm": "~5"
+  }
+}
